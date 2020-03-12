@@ -1,19 +1,26 @@
 {
-  "name": "tugas2-ilhamsenaa",
+  "name": "tugas2-haekalalawy15-master",
   "version": "1.0.0",
-  "description": "\"# tugas2-ilhamsenaa\"",
+  "description": "tugas 2",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "tugas 2"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/2019Genap-PBKK-F/tugas2-ilhamsenaa.git"
+    "url": "git+https://github.com/2019Genap-PBKK-F/tugas2-haekalalawy15.git"
   },
-  "author": "",
+  "keywords": [
+    "tugas"
+  ],
+  "author": "Haekal",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/2019Genap-PBKK-F/tugas2-ilhamsenaa/issues"
+    "url": "https://github.com/2019Genap-PBKK-F/tugas2-haekalalawy15/issues"
   },
-  "homepage": "https://github.com/2019Genap-PBKK-F/tugas2-ilhamsenaa#readme"
+  "homepage": "https://github.com/2019Genap-PBKK-F/tugas2-haekalalawy15#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mssql": "^6.1.0"
+  }
 }
