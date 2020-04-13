@@ -3,7 +3,7 @@ var app = express();
 var sql = require('mssql');
 //Load HTTP module
 const http = require("http");
-const hostname = 'localhost';
+const hostname = '10.199.13.253';
 const port = 8003;
 
 //CORS Middleware
