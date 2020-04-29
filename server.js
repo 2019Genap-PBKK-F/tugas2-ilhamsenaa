@@ -1,8 +1,7 @@
 const express = require("express")
 const app = express()
 const sql = require('mssql')
-// const hostname = '10.199.14.46'
-// const port = 8018
+
 
 //CORS Middleware
 app.use(function (req, res, next) {
@@ -21,7 +20,7 @@ const config = {
    user: 'sa',
    password: 'SaSa1212',
    server: '10.199.13.253',
-   database: 'nrp05111740000140'
+   database: 'nrp05111740000182'
 }
 
 var executeQuery = function(res, query, model, reqType) {
