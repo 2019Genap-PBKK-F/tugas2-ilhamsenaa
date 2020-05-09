@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const sql = require('mssql')
 const hostname = '10.199.14.46';
-const port = 8003;
+const port = 8002;
 
 //CORS Middleware
 app.use(function (req, res, next) {
@@ -21,7 +21,7 @@ const config = {
     user: 'sa',
     password: 'SaSa1212',
     server: '10.199.13.253',
-    database: 'nrp05111640000182'
+    database: 'nrp05111640000150'
 };
 
 var executeQuery = function(res, query, param, reqType) {
@@ -481,3 +481,6 @@ app.delete("/api/Indikator_SatuanKerja_Log/:id_master", function(req, res)
   executeQuery(res, query, null, 0);
 })
 
+app.listen(8002, function () {
+   console.log('Listen on port 8002')
+})
