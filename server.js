@@ -480,3 +480,4 @@ app.delete("/api/Indikator_SatuanKerja_Log/:id_master", function(req, res)
   var query = "delete from Indikator_SatuanKerja_Log where id_master=" + req.params.id_master;
   executeQuery(res, query, null, 0);
 })
+
