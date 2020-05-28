@@ -466,9 +466,9 @@ app.put('/api/Indikator_SatuanKerja/:id',function(req,res){
   var param = [
     { name: 'id_indikator_periode', sqltype: sql.Int, value: req.body.id_indikator_periode },
     { name: 'id_satker', sqltype: sql.VarChar, value: req.body.id_satker },
-    { name: 'bobot', sqltype: sql.Float, value: req.body.bobot },
-    { name: 'target', sqltype: sql.Float, value: req.body.target },
-    { name: 'capaian', sqltype: sql.Float, value: req.body.capaian },
+    { name: 'bobot', sqltype: sql.Float, value: req.body.bob },
+    { name: 'target', sqltype: sql.Float, value: req.body.tar },
+    { name: 'capaian', sqltype: sql.Float, value: req.body.capai },
     { name: 'last_update', sqltype: sql.Char, value: req.body.last_update },
     { name: 'id', sqltype: sql.Int, value: req.body.id },
     { name: 'persentase', value: req.body.persentase }
@@ -592,7 +592,6 @@ app.delete("/api/Mahasiswa/:Id", function(req, res)
   var query = "delete from Mahasiswa where Id=" + req.params.Id;
   executeQuery(res, query, null, 0);
 })
-
 
 app.listen(port, function () {
   var message = "Server runnning on Port: " + port;
